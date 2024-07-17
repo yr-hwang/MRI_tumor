@@ -1,7 +1,7 @@
 # Qualitative & Quantitative Analysis of Structural MRI Modalities & Segmentation of Tumor Regions
 
 This project was conducted to make a qualitative comparison between T1CE and T2 brain scans, segmentation of tumor regions within the images, and a quantitative comparison of the tumor brain scans. 
-The dataset consists of 1 T1CE image and 1 T2 image for the 2 visits to the hospital from 5 subjects each (labelled 01 to 05), adding up to a total of 20 images. The MRI images used are considered private and confidential, hence they will not be included in this repository.
+The dataset consists of 1 T1CE image and 1 T2 image (both .nii files)for the 2 visits to the hospital from 5 subjects each (labelled 01 to 05), adding up to a total of 20 images. The MRI images used are considered private and confidential, hence they will not be included in this repository.
 
 ## Qualitative Analysis
 
@@ -9,7 +9,7 @@ Qualitative analysis of the T1CE and T2 images was done by spotting the differen
 
 ## Segmentation of Tumor Regions
 
-Firstly, tumors within the images were identified. Tumors can be identified with the criteria of any irregularly appearing round object within the brain that should not be there are likely to be brain tumors. Then, tumor masks were made for each image using the ITK-SNAP program. Subsequently, The tumor masks were saved as binary masks.
+Firstly, tumors within the images were identified. Tumors can be identified with the criteria of any irregularly appearing round object within the brain that should not be there are likely to be brain tumors. Then, tumor masks were made for each image using the ITK-SNAP program. Subsequently, The tumor masks were saved as binary masks (.nii.gz files).
 
 ## Quantitative Analysis
 
